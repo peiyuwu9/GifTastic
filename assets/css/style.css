@@ -1,6 +1,7 @@
 
 .jumbotron {
     padding: 5%;
+    background: #ffe7c2;
 }
 
 .display-4 {
@@ -20,7 +21,7 @@
 }
 
 .col-sm-5 {
-    background: #dfe1eb;
+    background: #ffe7c2;
     text-align: center;
     padding-top: 2%;
 }
