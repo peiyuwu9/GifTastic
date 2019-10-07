@@ -20,7 +20,7 @@
     padding-bottom: 0.25%;
 }
 
-.col-sm-5 {
+.favorite-div {
     background: #ffe7c2;
     text-align: center;
     padding-top: 2%;
@@ -34,4 +34,9 @@
 
 i {
     color: gold;
+}
+
+#favorite-display img {
+    float: left;
+    margin: 1%;
 }

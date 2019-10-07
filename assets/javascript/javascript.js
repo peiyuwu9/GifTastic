@@ -97,7 +97,7 @@ $(document.body).on("click",".keyword-button", function(){
             var addToFavorite = $("<button>");
             addToFavorite.text("Add to favorite");
             addToFavorite.attr("class","add-to-favorite");
-            addToFavorite.attr("src",results[j].images.fixed_height_still.url).attr("image-still",results[j].images.fixed_height_still.url).attr("image-animate",results[j].images.fixed_height.url).attr("state","still");
+            addToFavorite.attr("src",results[j].images.fixed_height_small_still.url).attr("image-still",results[j].images.fixed_height_small_still.url).attr("image-animate",results[j].images.fixed_height_small.url).attr("state","still");
             
             //Append all above elements to single div
             eachGif.append(resultTitle).append(resultRating).append(resultImage).append("<br>").append("<i class='fas fa-star'></i>").append(addToFavorite);
@@ -153,7 +153,7 @@ $(document.body).on("click",".keyword-button", function(){
                 var addToFavorite = $("<button>");
                 addToFavorite.text("Add to favorite");
                 addToFavorite.attr("class","add-to-favorite");
-                addToFavorite.attr("src",results[k].images.fixed_height_still.url).attr("image-still",results[k].images.fixed_height_still.url).attr("image-animate",results[k].images.fixed_height.url).attr("state","still");
+                addToFavorite.attr("src",results[k].images.fixed_height_small_still.url).attr("image-still",results[k].images.fixed_height_small_still.url).attr("image-animate",results[k].images.fixed_height_small.url).attr("state","still");
                 
                 //Append all above elements to single div
                 eachGif.append(resultTitle).append(resultRating).append(resultImage).append("<br>").append("<i class='fas fa-star'></i>").append(addToFavorite);
@@ -198,7 +198,7 @@ $(document.body).on("click",".add-to-favorite",function(){
     var favoriteGif = $("<img>");
     favoriteGif.attr("src",favoriteURL).attr("image-still",favoriteImageStill).attr("image-animate",favoriteImageAnimate).attr("state",favoriteState).attr("class","favorite-gif");
 
-    $("#favorite-display").append(favoriteGif).append("<br><br>");
+    $("#favorite-display").append(favoriteGif);
 })
 
 //Once users click on gif, gif will start animating, and click again will stop animation
