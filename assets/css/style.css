@@ -1,0 +1,36 @@
+
+.jumbotron {
+    padding: 5%;
+}
+
+.display-4 {
+    font-family: 'Finger Paint', cursive;
+}
+
+.keyword-button {
+    margin: 1%;
+    margin-left: 0;
+}
+
+#add-keyword {
+    margin-top: 0;
+    margin-bottom: 0.5%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+}
+
+.col-sm-5 {
+    background: #dfe1eb;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.add-to-favorite {
+    margin-top: 1%;
+    background: white;
+    border: none;
+}
+
+i {
+    color: gold;
+}

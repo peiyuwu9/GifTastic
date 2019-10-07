@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Hi+Melody|Luckiest+Guy&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Gif Generator</h1>
+            <p class="lead">In this function, you can search avaiable gifs out there by simply searching keywords.</p>
+            <p class="lead">By clicking on gifs, you can see gif animation and click again to stop animation.</p>
+            <p class="lead">Adding keyword button function is available too.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- Generate a input section that users can create their own keyword buttons -->
+                <form>
+                    <label>Add you own button here --> </label>
+                    <input type="text" id="keyword-input">
+                    <input type="submit" id="add-keyword" class="btn btn-success" value="Create">
+                </form>
+            </div>
+            <div class="col-sm-12">
+                <div id="button-display"></div>
+                <button id="clear" class="btn btn-danger">Clear</button>
+                <hr class="my-4">
+            </div>
+            <div class="col-sm-7">
+                <div id="gif-display"></div>
+            </div>
+            <div class="col-sm-5">
+                <div id="favorite-display">
+                    <h5><i class='fas fa-star'></i> Your Favorite Gifs</h5>
+                    <hr>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d46c29a905.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"> </script>
+    
+</body>
+</html>
