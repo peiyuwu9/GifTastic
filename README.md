@@ -1,15 +1,15 @@
-# GifTastic
+# Gif Tastic
 A search engine to retrieve gif of your choices.
 
-# Motivation
+## Motivation
 Create a engine to practice ajax function.
 
-# Technologies used and why
-[HTML] is used as backbone of the content.
-[CSS] is used to modify the layout.
-[jQuery] is used to create a form for users and retrieve data from Giphy API.
+# #Technologies used and why
+**HTML** is used as backbone of the content.  
+**CSS** is used to modify the layout.  
+**jQuery** is used to create a form for users and retrieve data from Giphy API.
 
-# How to use
+## How to use
 1. Once page loaded, default buttons will populate.
 
 2. If click buttons brower will show you 10 gifs taht are related to the keywords on button.
