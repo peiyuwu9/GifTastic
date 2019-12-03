@@ -4,7 +4,7 @@ A search engine to retrieve gif of your choices.
 ## Motivation
 Create a engine to practice ajax function.
 
-# #Technologies used and why
+## Technologies used and why
 **HTML** is used as backbone of the content.  
 **CSS** is used to modify the layout.  
 **jQuery** is used to create a form for users and retrieve data from Giphy API.
